@@ -21019,7 +21019,7 @@ def save_newJson(dict_json, file_name=None):
 
     if file_name is None:
         #datenum = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
-        file_name = 'iWuBi_code.json'#.format('iLeetCoder', datenum)
+        file_name = 'WuBi/iWuBi_code.json'#.format('iLeetCoder', datenum)
     cwd = os.getcwd()
     save_path = os.path.join(cwd, file_name)
     with open(save_path, 'w', encoding="utf-8") as fp:
@@ -21065,7 +21065,7 @@ def generate_single_word_dict(fpath):
 
 cwd = os.getcwd()
     # json_file = cwd + '/iLeetCoder_20190331_160551.json'
-json_file = cwd + '/wubi98_word_code.txt'
+json_file = cwd + '/WuBi/wubi98_word_code.txt'
 generate_single_word_dict(json_file)
 
 
